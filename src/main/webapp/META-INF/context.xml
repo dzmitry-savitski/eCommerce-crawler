@@ -1,0 +1,13 @@
+<Context>
+    <!--DB CONNECTION-->
+    <Resource name="jdbc/crawler"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="50"
+              maxIdle="30"
+              maxWait="10000"
+              username="adminIs4hKXN"
+              password="GPHzNvQZysQS"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/crawler?useUnicode=true&amp;characterEncoding=UTF-8"/>
+</Context>
